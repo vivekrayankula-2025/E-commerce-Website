@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details | Shopora</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .product-detail-page {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 25px;
+            text-decoration: none;
+            color: #555;
+            font-weight: 600;
+        }
+
+        .product-detail {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            background: #fff;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+        }
+
+        .product-detail-image {
+            width: 100%;
+            height: 480px;
+            object-fit: contain;
+            border-radius: 15px;
+            background: #f7f7f7;
+        }
+
+        .product-category {
+            display: inline-block;
+            background: #f1f1f1;
+            padding: 7px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .product-detail h1 {
+            font-size: 34px;
+            margin: 10px 0;
+        }
+
+        .product-rating {
+            margin: 15px 0;
+            font-size: 17px;
+        }
+
+        .product-price {
+            font-size: 30px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .product-description {
+            color: #666;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        /* SPECIFICATIONS */
+
+        .specifications {
+            margin-top: 35px;
+        }
+
+        .specifications h2 {
+            font-size: 24px;
+            margin-bottom: 18px;
+        }
+
+        .spec-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: 1px solid #e5e5e5;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .spec-item {
+            padding: 16px;
+            border-bottom: 1px solid #e5e5e5;
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
+        .spec-item:nth-child(odd) {
+            background: #fafafa;
+        }
+
+        .spec-name {
+            font-weight: 600;
+            color: #555;
+        }
+
+        .spec-value {
+            color: #222;
+            text-align: right;
+        }
+
+        .quantity-box {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .quantity-box button {
+            width: 38px;
+            height: 38px;
+            border: none;
+            border-radius: 8px;
+            background: #eee;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        #quantity {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .action-buttons button {
+            padding: 14px 25px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .add-cart {
+            background: #111;
+            color: white;
+        }
+
+        .buy-now {
+            background: #ff6b00;
+            color: white;
+        }
+
+        .benefits {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .benefit {
+            padding: 15px;
+            background: #f8f8f8;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        @media(max-width: 768px) {
+
+            .product-detail {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+
+            .product-detail-image {
+                height: 350px;
+            }
+
+            .spec-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits {
+                grid-template-columns: 1fr;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body><div class="site-mini-nav"><div class="container"><a href="index.html">🏠 Shopora</a><a href="products.html">All Products</a><a href="categories.html">Categories</a><a href="deals.html">Deals</a><a href="wishlist.html">Wishlist</a><a href="account.html">Account & Orders</a><a href="cart.html">🛒 Cart</a><a href="help.html">Help</a></div></div>
+
+<div class="product-detail-page">
+
+    <a href="products.html" class="back-btn">
+        ← Back to Products
+    </a>
+
+    <div id="productDetails">
+        <!-- Product loaded by JavaScript -->
+    </div>
+
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/product.js"></script>
+
+</body>
+</html>

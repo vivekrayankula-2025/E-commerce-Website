@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Shopora - Your online shopping destination"
+    >
+
+    <title>Shopora | Online Shopping</title>
+
+    <!-- Google Font -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     TOP ANNOUNCEMENT
+===================================================== -->
+
+<div class="top-bar">
+
+    <div class="container top-bar-content">
+
+        <span>
+            🚚 Free delivery on orders above ₹999
+        </span>
+
+        <div class="top-links">
+
+            <a href="deals.html">
+                Today's Deals
+            </a>
+
+            <a href="#support" data-action="support">Customer Service</a>
+
+            <a href="seller.html">
+                Sell on Shopora
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     MAIN HEADER
+===================================================== -->
+
+<header class="main-header">
+
+    <div class="container header-content">
+
+
+        <!-- LOGO -->
+
+        <a
+            href="index.html"
+            class="shopora-logo"
+        >
+
+            <span class="logo-icon">
+                S
+            </span>
+
+            <span class="logo-text">
+                Shopora
+            </span>
+
+        </a>
+
+
+        <!-- LOCATION -->
+
+        <div class="delivery-location">
+
+            <span class="location-icon">
+                📍
+            </span>
+
+            <div>
+
+                <small>
+                    Deliver to
+                </small>
+
+                <strong>
+                    India
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <form
+            class="main-search"
+            id="searchForm"
+        >
+
+            <select
+                id="headerCategory"
+                aria-label="Search category"
+            >
+
+                <option value="all">
+                    All
+                </option>
+
+                <option value="electronics">
+                    Electronics
+                </option>
+
+                <option value="fashion">
+                    Fashion
+                </option>
+
+                <option value="home">
+                    Home
+                </option>
+
+            </select>
+
+
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search Shopora"
+                autocomplete="off"
+            >
+
+
+            <button
+                type="submit"
+                aria-label="Search"
+            >
+
+                🔍
+
+            </button>
+
+        </form>
+
+
+        <!-- ACCOUNT -->
+
+        <button type="button" class="header-account header-action" data-action="account">
+
+            <small>
+                Hello, Sign in
+            </small>
+
+            <strong>
+                Account & Lists
+            </strong>
+        </button>
+
+
+        <!-- ORDERS -->
+
+        <button type="button" class="header-orders header-action" data-action="orders">
+
+            <small>
+                Returns
+            </small>
+
+            <strong>
+                & Orders
+            </strong>
+        </button>
+
+
+        <!-- CART -->
+
+        <a
+            href="cart.html"
+            class="header-cart"
+        >
+
+            <span class="cart-icon">
+                🛒
+            </span>
+
+            <span
+                class="cart-count"
+                id="cartCount"
+            >
+                0
+            </span>
+
+            <strong>
+                Cart
+            </strong>
+
+        </a>
+
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     CATEGORY NAVIGATION
+===================================================== -->
+
+<nav class="category-nav">
+
+    <div class="container category-nav-content">
+
+
+        <button
+            class="menu-button"
+            id="menuButton"
+        >
+
+            ☰
+
+            <span>
+                All
+            </span>
+
+        </button>
+
+
+        <a href="#deals">
+            Today's Deals
+        </a>
+
+
+        <a href="#electronics">
+            Electronics
+        </a>
+
+
+        <a href="#fashion">
+            Fashion
+        </a>
+
+
+        <a href="#home">
+            Home
+        </a>
+
+
+        <a href="#products">
+            Best Sellers
+        </a>
+
+
+        <a href="deals.html#new">
+            New Arrivals
+        </a>
+
+
+        <a href="wishlist.html">
+            Wishlist
+        </a>
+
+
+        <a href="help.html">
+            Customer Service
+        </a>
+
+
+    </div>
+
+</nav>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero">
+
+    <div class="container hero-content">
+
+
+        <div class="hero-text">
+
+            <span class="hero-badge">
+                SHOPORA EXCLUSIVE
+            </span>
+
+
+            <h1>
+                Everything you need.
+                <span>
+                    All in one place.
+                </span>
+            </h1>
+
+
+            <p>
+                Discover electronics, fashion,
+                home essentials and more at
+                prices you'll love.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#products"
+                    class="hero-btn primary"
+                >
+                    Shop Now
+                </a>
+
+                <a
+                    href="#deals"
+                    class="hero-btn secondary"
+                >
+                    Explore Deals
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+            <div class="hero-image-showcase"><img src="assests/images/electronics.svg" alt="Electronics deals"><div class="hero-image-caption"><strong>Big savings on everyday essentials</strong><span>Shop electronics, fashion & home</span></div></div>
+            <div class="hero-card">
+
+                <span>
+                    🔥
+                </span>
+
+                <strong>
+                    Mega Deals
+                </strong>
+
+                <small>
+                    Up to 50% Off
+                </small>
+
+            </div>
+
+
+            <div class="floating-card card-one">
+
+                🎧
+
+                <span>
+                    Electronics
+                </span>
+
+            </div>
+
+
+            <div class="floating-card card-two">
+
+                👟
+
+                <span>
+                    Fashion
+                </span>
+
+            </div>
+
+
+            <div class="floating-card card-three">
+
+                🏠
+
+                <span>
+                    Home
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     QUICK CATEGORIES
+===================================================== -->
+
+<section class="quick-categories">
+
+    <div class="container">
+
+        <div class="category-boxes">
+
+
+            <a
+                href="#products"
+                class="quick-category"
+                data-category="electronics"
+            >
+
+                <div class="quick-icon electronics">
+                    🎧
+                </div>
+
+                <strong>
+                    Electronics
+                </strong>
+
+                <span>
+                    Explore →
+                </span>
+
+            </a>
+
+
+            <a
+                href="#products"
+                class="quick-category"
+                data-category="fashion"
+            >
+
+                <div class="quick-icon fashion">
+                    👟
+                </div>
+
+                <strong>
+                    Fashion
+                </strong>
+
+                <span>
+                    Explore →
+                </span>
+
+            </a>
+
+
+            <a
+                href="#products"
+                class="quick-category"
+                data-category="home"
+            >
+
+                <div class="quick-icon home">
+                    🏠
+                </div>
+
+                <strong>
+                    Home & Kitchen
+                </strong>
+
+                <span>
+                    Explore →
+                </span>
+
+            </a>
+
+
+            <a
+                href="deals.html"
+                class="quick-category"
+            >
+
+                <div class="quick-icon deals">
+                    🔥
+                </div>
+
+                <strong>
+                    Best Deals
+                </strong>
+
+                <span>
+                    Shop Now →
+                </span>
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DEALS
+===================================================== -->
+
+<section
+    class="deal-section"
+    id="deals"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    LIMITED TIME
+                </span>
+
+                <h2>
+                    Today's Best Deals
+                </h2>
+
+            </div>
+
+
+            <a
+                href="#products"
+                class="view-all"
+            >
+                See all deals →
+            </a>
+
+        </div>
+
+
+        <div class="deal-banner">
+
+
+            <div class="deal-content">
+
+                <span>
+                    SHOPORA DEAL OF THE DAY
+                </span>
+
+                <h2>
+                    Big savings.
+                    Small prices.
+                </h2>
+
+                <p>
+                    Discover handpicked products
+                    at incredible prices.
+                </p>
+
+                <a
+                    href="#products"
+                    class="deal-button"
+                >
+                    Shop Deals
+                </a>
+
+            </div>
+
+
+            <div class="deal-price">
+
+                <strong>
+                    UP TO
+                </strong>
+
+                <b>
+                    50%
+                </b>
+
+                <span>
+                    OFF
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="marketplace-strip"><div class="container marketplace-inner"><div class="marketplace-badge">SHOPORA<br><span>MARKETPLACE</span></div><div><strong>Top picks at everyday prices</strong><span>Easy returns • Secure payments • Fast delivery</span></div><a href="products.html" class="marketplace-btn">View All Picks →</a></div></section>
+
+<!-- =====================================================
+     PRODUCTS
+===================================================== -->
+
+<section
+    class="products-section"
+    id="products"
+>
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    SHOPORA STORE
+                </span>
+
+                <h2>
+                    Explore Our Products
+                </h2>
+
+                <p
+                    class="product-result-text"
+                    id="resultCount"
+                >
+                    60 products
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- FILTER BAR -->
+
+        <div class="filter-bar">
+
+
+            <div class="filter-title">
+
+                <strong>
+                    Filter & Sort
+                </strong>
+
+            </div>
+
+
+            <div class="filter-group">
+
+                <label for="categoryFilter">
+                    Category
+                </label>
+
+                <select
+                    id="categoryFilter"
+                >
+
+                    <option value="all">
+                        All Categories
+                    </option>
+
+                    <option value="electronics">
+                        Electronics
+                    </option>
+
+                    <option value="fashion">
+                        Fashion
+                    </option>
+
+                    <option value="home">
+                        Home
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="filter-group">
+
+                <label for="sortFilter">
+                    Sort By
+                </label>
+
+                <select
+                    id="sortFilter"
+                >
+
+                    <option value="default">
+                        Featured
+                    </option>
+
+                    <option value="price-low">
+                        Price: Low to High
+                    </option>
+
+                    <option value="price-high">
+                        Price: High to Low
+                    </option>
+
+                    <option value="rating">
+                        Customer Rating
+                    </option>
+
+                </select>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- PRODUCT GRID -->
+
+        <div
+            class="shopora-product-grid"
+            id="productGrid"
+        >
+        </div>
+
+
+        <!-- EMPTY STATE -->
+
+        <div
+            class="shopora-empty hidden"
+            id="emptyState"
+        >
+
+            <div class="empty-icon">
+                🔍
+            </div>
+
+            <h2>
+                No products found
+            </h2>
+
+            <p>
+                Try changing your search
+                or filters.
+            </p>
+
+            <button
+                class="clear-search"
+                onclick="location.reload()"
+            >
+                View All Products
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SHOPPING BENEFITS
+===================================================== -->
+
+<section class="benefits-section">
+
+    <div class="container">
+
+
+        <div class="benefits-grid">
+
+
+            <div class="benefit">
+
+                <div class="benefit-icon">
+                    🚚
+                </div>
+
+                <div>
+
+                    <strong>
+                        Fast Delivery
+                    </strong>
+
+                    <p>
+                        Quick and reliable
+                        delivery across India.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <div class="benefit-icon">
+                    🔒
+                </div>
+
+                <div>
+
+                    <strong>
+                        Secure Payments
+                    </strong>
+
+                    <p>
+                        Your payment information
+                        is always protected.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <div class="benefit-icon">
+                    ↩️
+                </div>
+
+                <div>
+
+                    <strong>
+                        Easy Returns
+                    </strong>
+
+                    <p>
+                        Simple and hassle-free
+                        returns.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="benefit">
+
+                <div class="benefit-icon">
+                    💬
+                </div>
+
+                <div>
+
+                    <strong>
+                        24/7 Support
+                    </strong>
+
+                    <p>
+                        We're here whenever
+                        you need us.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="support" class="support-strip"><div class="container"><h2>Need help?</h2><p>Our demo support team is available for shopping, returns and order questions.</p><button type="button" class="hero-btn primary" data-action="support">Contact Support</button></div></section>
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="shopora-footer">
+
+
+    <div class="back-to-top">
+
+        <a href="#">
+            Back to top ↑
+        </a>
+
+    </div>
+
+
+    <div class="container footer-main">
+
+
+        <div class="footer-brand">
+
+            <a
+                href="index.html"
+                class="shopora-logo footer-logo"
+            >
+
+                <span class="logo-icon">
+                    S
+                </span>
+
+                <span class="logo-text">
+                    Shopora
+                </span>
+
+            </a>
+
+
+            <p>
+                Your trusted destination for
+                quality products, great deals
+                and an easy shopping experience.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Get to Know Us
+            </h3>
+
+            <a href="about.html">
+                About Shopora
+            </a>
+
+            <a href="about.html#careers">
+                Careers
+            </a>
+
+            <a href="about.html#story">
+                Our Story
+            </a>
+
+            <a href="help.html#contact">
+                Contact Us
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Customer Support
+            </h3>
+
+            <a href="help.html">
+                Help Center
+            </a>
+
+            <a href="help.html#returns">
+                Returns
+            </a>
+
+            <a href="help.html#shipping">
+                Shipping
+            </a>
+
+            <a href="help.html#payment">
+                Payment Options
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>
+                Shop With Us
+            </h3>
+
+            <a href="categories.html#electronics">
+                Electronics
+            </a>
+
+            <a href="categories.html#fashion">
+                Fashion
+            </a>
+
+            <a href="categories.html#home">
+                Home
+            </a>
+
+            <a href="deals.html">
+                Today's Deals
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <div>
+
+                © 2026 Shopora.
+                All rights reserved.
+
+            </div>
+
+            <div>
+
+                <a href="privacy.html">
+                    Privacy
+                </a>
+
+                <a href="terms.html">
+                    Terms
+                </a>
+
+                <a href="privacy.html#cookies">
+                    Cookies
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<div id="shoporaModal" class="shopora-modal" aria-hidden="true"><div class="modal-card"><button class="modal-close" type="button" aria-label="Close">×</button><div id="modalContent"></div></div></div>
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="js/data.js"></script>
+
+<script src="js/products.js"></script>
+
+
+<!-- HEADER SEARCH -->
+<script>
+
+    const searchForm =
+        document.getElementById("searchForm");
+
+    const searchInput =
+        document.getElementById("searchInput");
+
+    const headerCategory =
+        document.getElementById("headerCategory");
+
+    const categoryFilter =
+        document.getElementById("categoryFilter");
+
+
+    searchForm.addEventListener(
+        "submit",
+        function (event) {
+
+            event.preventDefault();
+
+            categoryFilter.value =
+                headerCategory.value;
+
+            document
+                .getElementById("products")
+                .scrollIntoView({
+                    behavior: "smooth"
+                });
+
+            searchInput.dispatchEvent(
+                new Event("input")
+            );
+
+        }
+    );
+
+
+    /* QUICK CATEGORY */
+
+    document
+        .querySelectorAll(
+            ".quick-category"
+        )
+        .forEach(category => {
+
+            category.addEventListener(
+                "click",
+                function () {
+
+                    const selectedCategory =
+                        this.dataset.category;
+
+                    if (!selectedCategory)
+                        return;
+
+                    categoryFilter.value =
+                        selectedCategory;
+
+                    categoryFilter.dispatchEvent(
+                        new Event("change")
+                    );
+
+                }
+            );
+
+        });
+
+
+    const shoporaModal=document.getElementById("shoporaModal"), modalContent=document.getElementById("modalContent");
+    function openShoporaModal(title,body){modalContent.innerHTML=`<h2>${title}</h2>${body}`;shoporaModal.classList.add("open");shoporaModal.setAttribute("aria-hidden","false");}
+    function closeShoporaModal(){shoporaModal.classList.remove("open");shoporaModal.setAttribute("aria-hidden","true");}
+    document.querySelector(".modal-close").addEventListener("click",closeShoporaModal);
+    shoporaModal.addEventListener("click",e=>{if(e.target===shoporaModal)closeShoporaModal();});
+    document.querySelectorAll("[data-action]").forEach(el=>el.addEventListener("click",()=>{const a=el.dataset.action;if(a==="account")openShoporaModal("Sign in to Shopora",`<p>This is a demo account panel. No real login is required.</p><button class="modal-main-btn" onclick="closeShoporaModal()">Continue Shopping</button>`);if(a==="orders"){const o=JSON.parse(localStorage.getItem("orderHistory")||"[]");openShoporaModal("Your Orders",o.length?o.map(x=>`<p><strong>${x.id}</strong> — ₹${Number(x.total||0).toLocaleString("en-IN")} — ${x.status||"confirmed"}</p>`).join(""):`<p>No orders yet. Your orders will appear here after checkout.</p>`);}if(a==="support")openShoporaModal("Shopora Support",`<p>📦 Order help &nbsp; • &nbsp; ↩️ Returns &nbsp; • &nbsp; 💳 Payment help</p><button class="modal-main-btn" onclick="closeShoporaModal()">Close</button>`);}));
+    document.querySelectorAll(".footer-column a, .footer-bottom a").forEach(a=>a.addEventListener("click",e=>{if(a.getAttribute("href")==="#"){e.preventDefault();openShoporaModal(a.textContent.trim(),"<p>This Shopora demo page is ready for browsing. Use the navigation and product cards to continue shopping.</p>");}}));
+</script>
+
+
+</body>
+
+</html>
